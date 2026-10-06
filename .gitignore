@@ -1,0 +1,26 @@
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+coverage/
+
+# Python environments, bytecode, and test caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environment files and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Logs and operating system files
+*.log
+.DS_Store
+Thumbs.db
